@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Chris-Oliv Foundation</title>
+    <meta name="description" content="Frequently asked questions about the Chris-Oliv Foundation's programs, donations, volunteering, and impact.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #059669;
+            --color-primary-dark: #047857;
+            --color-secondary: #0d9488;
+            --color-accent: #14b8a6;
+            --font-heading: 'Crimson Text', serif;
+            --font-body: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <h2 class="text-xl font-bold text-gray-800" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h2>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Home</a>
+                        <a href="about.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">About</a>
+                        <a href="programs.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Programs</a>
+                        <a href="impact.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Impact</a>
+                        <div class="relative group">
+                            <button class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium flex items-center space-x-1 transition-colors duration-300">
+                                <span>Get Involved</span>
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                                <div class="py-1">
+                                    <a href="donate.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Donate</a>
+                                    <a href="volunteer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Volunteer</a>
+                                    <a href="partner.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Partner</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="stories.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Stories</a>
+                        <a href="contact.html" class="text-gray-600 hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Contact</a>
+                        <a href="faq.html" class="bg-primary text-white px-3 py-2 rounded-md text-sm font-medium">FAQ</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-gray-900 focus:outline-none focus:text-gray-900">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6" style="font-family: var(--font-heading)">Frequently Asked Questions</h1>
+            <p class="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto">Find answers to common questions about our programs, donations, and impact.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Content -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="space-y-4">
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">What is the Chris-Oliv Foundation?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>The Chris-Oliv Foundation is a nonprofit organization dedicated to improving education in underserved communities through our three-pillar approach: Fix (classroom infrastructure), Fuel (books and learning materials), and Follow-through (training and ongoing support).</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">How much of my donation goes directly to programs?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>85% of every donation goes directly to our programs and services. The remaining 15% covers essential administrative costs and fundraising activities that enable us to continue and expand our work.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">Do I need special skills to volunteer?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>Not at all! We have opportunities for all skill levels. Whether you're handy with tools, love organizing books, or have professional expertise to share, we can find a meaningful way for you to contribute.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">How do you select which schools to work with?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>We prioritize Title I schools and those serving high-need communities. Schools can apply to work with us, or we may reach out based on community referrals. We assess each school's needs and readiness to maintain improvements long-term.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">Are you a registered 501(c)(3) organization?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>Yes, the Chris-Oliv Foundation is a registered 501(c)(3) nonprofit organization. All donations are tax-deductible to the full extent allowed by law, and we provide receipts for all contributions.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">Can I donate items instead of money?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>Yes! We accept in-kind donations of books, school supplies, furniture, and professional services. Please contact us before donating items to ensure they meet our current needs and quality standards.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">How long does a classroom transformation take?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>A complete classroom transformation typically takes 2-4 weeks from start to finish, including assessment, planning, renovation work, book installation, and teacher training. Simple repairs or book distributions can be completed in a few days.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm border border-gray-200">
+                    <button class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg">
+                        <span class="text-lg font-semibold text-gray-800" style="font-family: var(--font-heading)">What are the benefits of corporate partnership?</span>
+                        <svg class="w-5 h-5 text-primary transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 text-gray-600 leading-relaxed">
+                        <p>Corporate partners receive measurable impact reporting, employee engagement opportunities, brand recognition, and the satisfaction of making a real difference in education. We provide detailed reports showing exactly how your support is used.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Still Have Questions -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6" style="font-family: var(--font-heading)">Still Have Questions?</h2>
+            <p class="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">We're here to help! Contact us and we'll get back to you as soon as possible.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4" style="font-family: var(--font-heading)">Email Us</h3>
+                    <p class="text-gray-600">info@chrisolivfoundation.org</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4" style="font-family: var(--font-heading)">Call Us</h3>
+                    <p class="text-gray-600">(555) 123-4567</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <div class="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4" style="font-family: var(--font-heading)">Visit Our Office</h3>
+                    <p class="text-gray-600">123 Education Way<br>Learning City, LC 12345</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-1">
+                    <h3 class="text-2xl font-bold mb-4" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h3>
+                    <p class="text-gray-300 leading-relaxed mb-4">Building brighter classrooms and futures for underserved communities.</p>
+                    <p class="text-gray-300">Email: <a href="mailto:info@chrisolivfoundation.org" class="text-primary hover:text-accent transition-colors duration-300">info@chrisolivfoundation.org</a></p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4" style="font-family: var(--font-heading)">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="donate.html" class="text-gray-300 hover:text-primary transition-colors duration-300">Donate</a></li>
+                        <li><a href="volunteer.html" class="text-gray-300 hover:text-primary transition-colors duration-300">Volunteer</a></li>
+                        <li><a href="partner.html" class="text-gray-300 hover:text-primary transition-colors duration-300">Partner</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4" style="font-family: var(--font-heading)">Learn More</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-primary transition-colors duration-300">About</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-primary transition-colors duration-300">Programs</a></li>
+                        <li><a href="impact.html" class="text-gray-300 hover:text-primary transition-colors duration-300">Impact</a></li>
+                        <li><a href="stories.html" class="text-gray-300 hover:text-primary transition-colors duration-300">Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4" style="font-family: var(--font-heading)">Connect</h4>
+                    <div class="space-y-2">
+                        <a href="#" aria-label="LinkedIn" class="block text-gray-300 hover:text-primary transition-colors duration-300">LinkedIn</a>
+                        <a href="#" aria-label="Instagram" class="block text-gray-300 hover:text-primary transition-colors duration-300">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 mb-4 md:mb-0">&copy; Chris-Oliv Foundation, Inc. All rights reserved.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#" class="text-gray-400 hover:text-primary transition-colors duration-300 text-sm">Donor Privacy</a>
+                        <a href="#" class="text-gray-400 hover:text-primary transition-colors duration-300 text-sm">Terms of Use</a>
+                        <a href="#" class="text-gray-400 hover:text-primary transition-colors duration-300 text-sm">Gift Acceptance Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-primary transition-colors duration-300 text-sm">Whistleblower Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
