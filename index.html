@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris-Oliv Foundation | Classroom Rehabilitation & Literacy Support</title>
+    <meta name="description" content="We improve learning by fixing classrooms, creating reading spaces, and providing books and teacher resources in underserved communities.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #059669;
+            --color-primary-dark: #047857;
+            --color-secondary: #0d9488;
+            --color-accent: #14b8a6;
+            --font-heading: 'Crimson Text', serif;
+            --font-body: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <h2 class="text-2xl font-bold text-gray-800" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h2>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-primary font-medium border-b-2 border-primary pb-1">Home</a>
+                        <a href="about.html" class="text-gray-600 hover:text-primary transition-colors font-medium">About</a>
+                        <a href="programs.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Programs</a>
+                        <a href="impact.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Impact</a>
+                        <div class="relative group">
+                            <a href="#" class="text-gray-600 hover:text-primary transition-colors font-medium">Get Involved</a>
+                            <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                                <div class="py-1">
+                                    <a href="donate.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Donate</a>
+                                    <a href="volunteer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Volunteer</a>
+                                    <a href="partner.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Partner</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="stories.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Stories</a>
+                        <a href="contact.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Contact</a>
+                        <a href="donate.html" class="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors font-medium">Donate</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40" style="background-image: url('https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')"></div>
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight" style="font-family: var(--font-heading)">Empowering Futures Through Education</h1>
+                <p class="text-xl md:text-2xl mb-12 text-gray-200 max-w-3xl mx-auto leading-relaxed">At Chris-Oliv Foundation, we believe every child deserves access to quality education. Join us in our mission to support underserved communities and create lasting change.</p>
+                
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="donate.html" class="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl">Donate</a>
+                    <a href="programs.html" class="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">See our Programs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Impact Stats -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)" data-count="12">12</div>
+                    <div class="text-lg text-gray-600 font-medium">Classrooms Refreshed</div>
+                </div>
+                <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)" data-count="8500">8,500+</div>
+                    <div class="text-lg text-gray-600 font-medium">Books Placed</div>
+                </div>
+                <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)" data-count="92">92</div>
+                    <div class="text-lg text-gray-600 font-medium">Teacher Kits Delivered</div>
+                </div>
+                <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)" data-count="2100">2,100+</div>
+                    <div class="text-lg text-gray-600 font-medium">Students Reached</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Approach -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16" style="font-family: var(--font-heading)">Our Simple, Powerful Approach</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center group">
+                    <div class="bg-gradient-to-br from-primary to-secondary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">📚</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4" style="font-family: var(--font-heading)">Educational Programs</h3>
+                    <p class="text-gray-600 leading-relaxed">We offer equitable learning programs, improving literacy and language skills for underserved communities.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="bg-gradient-to-br from-primary to-secondary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">🏫</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4" style="font-family: var(--font-heading)">Community Engagement</h3>
+                    <p class="text-gray-600 leading-relaxed">We actively involve communities in our initiatives, ensuring sustainable development and local ownership.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="bg-gradient-to-br from-primary to-secondary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">🤝</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4" style="font-family: var(--font-heading)">Partnership & Support</h3>
+                    <p class="text-gray-600 leading-relaxed">We offer guidance and resources to help students, teachers, and communities achieve their educational goals.</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="programs.html" class="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">See our Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 sm:mb-0" style="font-family: var(--font-heading)">Stories of Change</h2>
+                <a href="stories.html" class="text-secondary hover:text-primary font-semibold text-lg transition-colors">See All Stories</a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-48 bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                        <span class="text-6xl">📖</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3" style="font-family: var(--font-heading)">From Struggle to Success: Aisha's Journey</h3>
+                        <p class="text-gray-600 mb-4 leading-relaxed">Discover how our literacy program helped Aisha overcome reading challenges and excel in her studies.</p>
+                        <a href="#" class="text-secondary hover:text-primary font-semibold transition-colors">Read More</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-48 bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                        <span class="text-6xl">🏫</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3" style="font-family: var(--font-heading)">Building Brighter Futures: The Community Project</h3>
+                        <p class="text-gray-600 mb-4 leading-relaxed">Learn how our community engagement initiatives transformed an entire neighborhood's approach to education.</p>
+                        <a href="#" class="text-secondary hover:text-primary font-semibold transition-colors">Read More</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-48 bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                        <span class="text-6xl">🎓</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3" style="font-family: var(--font-heading)">Celebrating Achievement: Sarah's Graduation</h3>
+                        <p class="text-gray-600 mb-4 leading-relaxed">Follow Sarah's inspiring journey from struggling student to proud graduate, thanks to our support programs.</p>
+                        <a href="#" class="text-secondary hover:text-primary font-semibold transition-colors">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 bg-gradient-to-r from-primary to-secondary text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6" style="font-family: var(--font-heading)">Ready to Build a Brighter Future?</h2>
+            <p class="text-xl mb-10 text-gray-100 leading-relaxed">Your contribution, whether big or small, helps provide quality education and creates lasting change in underserved communities.</p>
+            <a href="donate.html" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl">Donate Now</a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-1">
+                    <h3 class="text-2xl font-bold mb-4" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h3>
+                    <p class="text-gray-300 mb-4 leading-relaxed">Building brighter classrooms and futures for underserved communities.</p>
+                    <p class="text-gray-300">Email: <a href="mailto:info@chrisolivfoundation.org" class="text-primary hover:text-accent transition-colors">info@chrisolivfoundation.org</a></p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="donate.html" class="text-gray-300 hover:text-primary transition-colors">Donate</a></li>
+                        <li><a href="volunteer.html" class="text-gray-300 hover:text-primary transition-colors">Volunteer</a></li>
+                        <li><a href="partner.html" class="text-gray-300 hover:text-primary transition-colors">Partner</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Learn More</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-primary transition-colors">About</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-primary transition-colors">Programs</a></li>
+                        <li><a href="impact.html" class="text-gray-300 hover:text-primary transition-colors">Impact</a></li>
+                        <li><a href="stories.html" class="text-gray-300 hover:text-primary transition-colors">Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">&copy; Chris-Oliv Foundation, Inc. All rights reserved.</p>
+                <div class="flex flex-wrap gap-4 text-sm">
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Donor Privacy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Terms of Use</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Gift Acceptance Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Whistleblower Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
