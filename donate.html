@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate | Chris-Oliv Foundation</title>
+    <meta name="description" content="Support our mission to improve education. Every donation directly funds classroom improvements and learning resources for underserved communities.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #059669;
+            --color-primary-dark: #047857;
+            --color-secondary: #0d9488;
+            --color-accent: #14b8a6;
+            --font-heading: 'Crimson Text', serif;
+            --font-body: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <h2 class="text-2xl font-bold text-gray-800" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h2>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Home</a>
+                        <a href="about.html" class="text-gray-600 hover:text-primary transition-colors font-medium">About</a>
+                        <a href="programs.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Programs</a>
+                        <a href="impact.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Impact</a>
+                        <div class="relative group">
+                            <a href="#" class="text-primary font-medium border-b-2 border-primary pb-1">Get Involved</a>
+                            <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                                <div class="py-1">
+                                    <a href="donate.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Donate</a>
+                                    <a href="volunteer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Volunteer</a>
+                                    <a href="partner.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Partner</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="stories.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Stories</a>
+                        <a href="contact.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Contact</a>
+                        <a href="donate.html" class="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors font-medium">Donate</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6" style="font-family: var(--font-heading)">Make a Difference Today</h1>
+            <p class="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto">Your donation directly improves learning environments for children who need it most.</p>
+        </div>
+    </section>
+
+    <!-- Donation Impact -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800" style="font-family: var(--font-heading)">Your Impact</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-3xl font-bold text-primary mb-4">$25</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Reading Corner Starter</h3>
+                    <p class="text-gray-600 mb-4">Provides 10-15 age-appropriate books for a classroom reading corner.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Fiction and non-fiction titles</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Multiple reading levels</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Durable, classroom-ready books</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 relative border-2 border-primary">
+                    <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold">Most Popular</div>
+                    <div class="text-3xl font-bold text-primary mb-4">$75</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Teacher Resource Kit</h3>
+                    <p class="text-gray-600 mb-4">Equips one teacher with lesson plans, activities, and classroom materials.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Comprehensive lesson plans</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Activity worksheets and guides</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Classroom management tools</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Professional development materials</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-3xl font-bold text-primary mb-4">$150</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Classroom Library</h3>
+                    <p class="text-gray-600 mb-4">Creates a complete classroom library with 100+ books and organization system.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>100+ carefully selected books</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Book storage and organization</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Reading tracking materials</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Library management guide</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-3xl font-bold text-primary mb-4">$500</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Furniture Repair Fund</h3>
+                    <p class="text-gray-600 mb-4">Repairs and replaces broken desks, chairs, and storage in one classroom.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Desk and chair repairs</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Storage solutions</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Safety improvements</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Maintenance training</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-3xl font-bold text-primary mb-4">$1,200</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Complete Classroom Transformation</h3>
+                    <p class="text-gray-600 mb-4">Full rehabilitation of one classroom including repairs, books, and teacher training.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>All structural repairs</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Complete book collection</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Teacher resource kit</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Follow-up support</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-3xl font-bold text-primary mb-4">Custom</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Your Choice</h3>
+                    <p class="text-gray-600 mb-4">Choose any amount that works for you. Every dollar makes a difference.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Flexible giving options</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Monthly or one-time gifts</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Corporate matching eligible</li>
+                        <li class="flex items-center"><span class="text-primary mr-2">✓</span>Tax-deductible donation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Form -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gray-50 rounded-2xl shadow-xl p-8 lg:p-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800" style="font-family: var(--font-heading)">Choose Your Donation</h2>
+                <form class="space-y-8">
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h3 class="text-xl font-semibold mb-6 text-gray-800" style="font-family: var(--font-heading)">Choose Your Impact</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
+                            <button type="button" class="amount-btn bg-gray-100 hover:bg-primary hover:text-white border-2 border-gray-200 hover:border-primary px-4 py-3 rounded-lg font-semibold transition-all duration-300" data-amount="25">$25</button>
+                            <button type="button" class="amount-btn bg-gray-100 hover:bg-primary hover:text-white border-2 border-gray-200 hover:border-primary px-4 py-3 rounded-lg font-semibold transition-all duration-300" data-amount="50">$50</button>
+                            <button type="button" class="amount-btn bg-gray-100 hover:bg-primary hover:text-white border-2 border-gray-200 hover:border-primary px-4 py-3 rounded-lg font-semibold transition-all duration-300" data-amount="100">$100</button>
+                            <button type="button" class="amount-btn bg-gray-100 hover:bg-primary hover:text-white border-2 border-gray-200 hover:border-primary px-4 py-3 rounded-lg font-semibold transition-all duration-300" data-amount="250">$250</button>
+                            <button type="button" class="amount-btn bg-gray-100 hover:bg-primary hover:text-white border-2 border-gray-200 hover:border-primary px-4 py-3 rounded-lg font-semibold transition-all duration-300" data-amount="500">$500</button>
+                        </div>
+                        <div>
+                            <label for="custom-amount" class="block text-sm font-medium text-gray-700 mb-2">Other Amount:</label>
+                            <input type="number" id="custom-amount" placeholder="Enter amount" min="1" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h4 class="text-lg font-semibold mb-4 text-gray-800" style="font-family: var(--font-heading)">Donation Frequency</h4>
+                        <div class="flex gap-6">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="frequency" value="one-time" checked class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                <span class="ml-2 text-gray-700">One-time</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="frequency" value="monthly" class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                <span class="ml-2 text-gray-700">Monthly</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Designation Options -->
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h4 class="text-lg font-semibold mb-4 text-gray-800" style="font-family: var(--font-heading)">Where should your donation have the most impact?</h4>
+                        <div class="space-y-3">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="designation" value="most-needed" checked class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                <span class="ml-2 text-gray-700">Where Most Needed</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="designation" value="classroom-rehab" class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                <span class="ml-2 text-gray-700">Classroom Rehabilitation</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="designation" value="books" class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                <span class="ml-2 text-gray-700">Books & Literature</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="designation" value="teacher-kits" class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                <span class="ml-2 text-gray-700">Teacher Resource Kits</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="designation" value="reading-corners" class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                <span class="ml-2 text-gray-700">Reading Corners</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Tribute Section -->
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h4 class="text-lg font-semibold mb-4 text-gray-800" style="font-family: var(--font-heading)">Honor or Memorial Gift (Optional)</h4>
+                        <div class="mb-4">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="checkbox" id="tribute-gift" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                                <span class="ml-2 text-gray-700">This is a tribute gift</span>
+                            </label>
+                        </div>
+                        <div class="tribute-details hidden" id="tribute-details">
+                            <div class="flex gap-6 mb-4">
+                                <label class="flex items-center cursor-pointer">
+                                    <input type="radio" name="tribute-type" value="honor" class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-2 text-gray-700">In honor of</span>
+                                </label>
+                                <label class="flex items-center cursor-pointer">
+                                    <input type="radio" name="tribute-type" value="memory" class="h-4 w-4 text-primary focus:ring-primary border-gray-300">
+                                    <span class="ml-2 text-gray-700">In memory of</span>
+                                </label>
+                            </div>
+                            <input type="text" placeholder="Honoree's name" id="honoree-name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                        </div>
+                    </div>
+
+                    <!-- Corporate Matching -->
+                    <div class="bg-gradient-to-r from-blue-50 to-primary/10 rounded-xl p-6 border border-primary/20">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-3xl">🏢</div>
+                            <div class="flex-1">
+                                <h4 class="text-lg font-semibold mb-2 text-gray-800" style="font-family: var(--font-heading)">Double Your Impact!</h4>
+                                <p class="text-gray-600 mb-4">Many employers offer matching gift programs. Check if your company will match your donation to maximize your impact.</p>
+                                <button type="button" class="border-2 border-primary text-primary hover:bg-primary hover:text-white px-4 py-2 rounded-lg font-medium transition-all duration-300" onclick="checkMatching()">Check Company Matching</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h3 class="text-xl font-semibold mb-6 text-gray-800" style="font-family: var(--font-heading)">Your Information</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number (optional)</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h3 class="text-xl font-semibold mb-6 text-gray-800" style="font-family: var(--font-heading)">Payment Information</h3>
+                        <div class="bg-gray-50 rounded-lg p-6 text-center">
+                            <p class="font-semibold text-gray-800 mb-2">Secure Payment Processing</p>
+                            <p class="text-gray-600 mb-4">Credit card and PayPal options would be integrated here using a secure payment processor like Stripe or PayPal.</p>
+                            <div class="flex justify-center gap-4">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">🔒 SSL Encrypted</span>
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">💳 PCI Compliant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <div class="space-y-3">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="checkbox" name="anonymous" id="anonymous" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                                <span class="ml-2 text-gray-700">Make this donation anonymous</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="checkbox" name="newsletter" id="newsletter" checked class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                                <span class="ml-2 text-gray-700">Send me updates about our impact</span>
+                            </label>
+                            <label class="flex items-center cursor-pointer">
+                                <input type="checkbox" name="employer" id="employer" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                                <span class="ml-2 text-gray-700">My employer offers matching gifts</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="bg-primary hover:bg-primary-dark text-white px-12 py-4 rounded-lg text-xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                            Complete Donation
+                        </button>
+                        <p class="text-sm text-gray-600 mt-4">Your donation is tax-deductible. You will receive a receipt via email.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Ways to Give -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800" style="font-family: var(--font-heading)">Other Ways to Support Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">🏢</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Corporate Partnerships</h3>
+                    <p class="text-gray-600 mb-6">Partner with us for employee volunteer programs and corporate giving initiatives.</p>
+                    <a href="partner.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Learn More</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">🎁</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Planned Giving</h3>
+                    <p class="text-gray-600 mb-6">Include the Chris-Oliv Foundation in your estate planning or retirement account beneficiaries.</p>
+                    <a href="contact.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Contact Us</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">📦</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">In-Kind Donations</h3>
+                    <p class="text-gray-600 mb-6">Donate books, school supplies, or professional services to support our programs.</p>
+                    <a href="contact.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Get Started</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">🛍️</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Fundraising Events</h3>
+                    <p class="text-gray-600 mb-6">Host a fundraiser in your community or participate in our annual giving campaigns.</p>
+                    <a href="contact.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Organize Event</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-1">
+                    <h3 class="text-2xl font-bold mb-4" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h3>
+                    <p class="text-gray-300 mb-4 leading-relaxed">Building brighter classrooms and futures for underserved communities.</p>
+                    <p class="text-gray-300">Email: <a href="mailto:info@chrisolivfoundation.org" class="text-primary hover:text-accent transition-colors">info@chrisolivfoundation.org</a></p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="donate.html" class="text-gray-300 hover:text-primary transition-colors">Donate</a></li>
+                        <li><a href="volunteer.html" class="text-gray-300 hover:text-primary transition-colors">Volunteer</a></li>
+                        <li><a href="partner.html" class="text-gray-300 hover:text-primary transition-colors">Partner</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Learn More</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-primary transition-colors">About</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-primary transition-colors">Programs</a></li>
+                        <li><a href="impact.html" class="text-gray-300 hover:text-primary transition-colors">Impact</a></li>
+                        <li><a href="stories.html" class="text-gray-300 hover:text-primary transition-colors">Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">&copy; Chris-Oliv Foundation, Inc. All rights reserved.</p>
+                <div class="flex flex-wrap gap-4 text-sm">
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Donor Privacy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Terms of Use</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Gift Acceptance Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Whistleblower Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
