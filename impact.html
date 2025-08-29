@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Impact | Chris-Oliv Foundation</title>
+    <meta name="description" content="See the measurable impact of our work: classrooms transformed, students reached, and communities strengthened through education.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #059669;
+            --color-primary-dark: #047857;
+            --color-secondary: #0d9488;
+            --color-accent: #14b8a6;
+            --font-heading: 'Crimson Text', serif;
+            --font-body: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <h2 class="text-2xl font-bold text-gray-800" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h2>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Home</a>
+                        <a href="about.html" class="text-gray-600 hover:text-primary transition-colors font-medium">About</a>
+                        <a href="programs.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Programs</a>
+                        <a href="impact.html" class="text-primary font-medium border-b-2 border-primary pb-1">Impact</a>
+                        <div class="relative group">
+                            <a href="#" class="text-gray-600 hover:text-primary transition-colors font-medium">Get Involved</a>
+                            <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                                <div class="py-1">
+                                    <a href="donate.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Donate</a>
+                                    <a href="volunteer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Volunteer</a>
+                                    <a href="partner.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Partner</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="stories.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Stories</a>
+                        <a href="contact.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Contact</a>
+                        <a href="donate.html" class="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors font-medium">Donate</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6" style="font-family: var(--font-heading)">Measuring Our Impact</h1>
+            <p class="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto">Real results from our commitment to educational equity.</p>
+        </div>
+    </section>
+
+    <!-- Impact Dashboard -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row justify-between items-center mb-12">
+                <div class="text-center lg:text-left mb-8 lg:mb-0">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4" style="font-family: var(--font-heading)">Our Impact Dashboard</h2>
+                    <p class="text-xl text-gray-600">Real-time metrics showing our progress in transforming education</p>
+                </div>
+                <div>
+                    <button class="bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center space-x-2" onclick="downloadImpactBrief()">
+                        <span>📄</span>
+                        <span>Download Latest Impact Brief (PDF)</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-gradient-to-br from-primary to-secondary rounded-xl p-6 text-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-4xl mr-4">🏫</div>
+                        <div>
+                            <div class="text-3xl font-bold" data-count="8">8</div>
+                            <div class="text-gray-100 text-sm">Classrooms made safe and usable</div>
+                        </div>
+                    </div>
+                    <div class="text-green-200 text-sm font-medium">↗ +2 this quarter</div>
+                </div>
+                <div class="bg-gradient-to-br from-primary to-secondary rounded-xl p-6 text-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-4xl mr-4">📚</div>
+                        <div>
+                            <div class="text-3xl font-bold" data-count="12300">12,300</div>
+                            <div class="text-gray-100 text-sm">Books into daily circulation</div>
+                        </div>
+                    </div>
+                    <div class="text-green-200 text-sm font-medium">↗ +3,200 this quarter</div>
+                </div>
+                <div class="bg-gradient-to-br from-primary to-secondary rounded-xl p-6 text-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-4xl mr-4">👩‍🏫</div>
+                        <div>
+                            <div class="text-3xl font-bold" data-count="140">140</div>
+                            <div class="text-gray-100 text-sm">Teachers equipped with resource kits</div>
+                        </div>
+                    </div>
+                    <div class="text-green-200 text-sm font-medium">↗ +45 this quarter</div>
+                </div>
+                <div class="bg-gradient-to-br from-primary to-secondary rounded-xl p-6 text-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-4xl mr-4">📖</div>
+                        <div>
+                            <div class="text-3xl font-bold" data-count="1900">1,900</div>
+                            <div class="text-gray-100 text-sm">Weekly student reading sessions</div>
+                        </div>
+                    </div>
+                    <div class="text-green-200 text-sm font-medium">↗ +600 this quarter</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Measurement Methodology -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16" style="font-family: var(--font-heading)">How We Measure Impact</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 flex items-center" style="font-family: var(--font-heading)">
+                        <span class="text-3xl mr-3">📊</span>
+                        Outputs
+                    </h3>
+                    <p class="text-gray-600 mb-6">Direct deliverables we track</p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Projects completed</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Books delivered</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Teacher sessions held</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Reading minutes logged</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 flex items-center" style="font-family: var(--font-heading)">
+                        <span class="text-3xl mr-3">📈</span>
+                        Outcomes (Lightweight)
+                    </h3>
+                    <p class="text-gray-600 mb-6">Changes we monitor</p>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Attendance trends</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Library checkouts</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Teacher feedback</li>
+                        <li class="flex items-center"><span class="w-2 h-2 bg-primary rounded-full mr-3"></span>Community engagement</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg-gradient-to-r from-primary to-secondary rounded-xl p-8 text-white text-center">
+                <p class="text-lg leading-relaxed"><strong>Our Approach:</strong> We believe in lightweight, practical measurement that doesn't burden schools while providing clear evidence of impact. Our methodology focuses on sustainable data collection that schools can maintain independently.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)">8</div>
+                    <div class="text-xl font-semibold text-gray-800 mb-3">Classrooms Transformed</div>
+                    <div class="text-gray-600 leading-relaxed">Complete rehabilitations creating safe, inspiring learning environments</div>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)">1,900+</div>
+                    <div class="text-xl font-semibold text-gray-800 mb-3">Students Reached</div>
+                    <div class="text-gray-600 leading-relaxed">Children now learning in improved classrooms with better resources</div>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)">12,300+</div>
+                    <div class="text-xl font-semibold text-gray-800 mb-3">Books Distributed</div>
+                    <div class="text-gray-600 leading-relaxed">Age-appropriate reading materials placed directly in students' hands</div>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)">140</div>
+                    <div class="text-xl font-semibold text-gray-800 mb-3">Teacher Kits Delivered</div>
+                    <div class="text-gray-600 leading-relaxed">Comprehensive resource packages supporting effective instruction</div>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)">45</div>
+                    <div class="text-xl font-semibold text-gray-800 mb-3">Teachers Trained</div>
+                    <div class="text-gray-600 leading-relaxed">Educators equipped with skills for classroom management and literacy instruction</div>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-5xl font-bold text-primary mb-4" style="font-family: var(--font-heading)">6</div>
+                    <div class="text-xl font-semibold text-gray-800 mb-3">Partner Schools</div>
+                    <div class="text-gray-600 leading-relaxed">Educational institutions actively collaborating with our programs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16" style="font-family: var(--font-heading)">Transformation in Action</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="text-center">
+                            <div class="bg-gray-200 rounded-lg h-32 flex items-center justify-center mb-2">
+                                <span class="text-gray-600 text-sm">Before: Broken desks and poor lighting</span>
+                            </div>
+                            <p class="text-sm font-semibold text-gray-600">Before</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-primary/10 rounded-lg h-32 flex items-center justify-center mb-2">
+                                <span class="text-primary text-sm">After: Repaired furniture and bright space</span>
+                            </div>
+                            <p class="text-sm font-semibold text-primary">After</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3" style="font-family: var(--font-heading)">Lincoln Elementary - Grade 3 Classroom</h3>
+                    <p class="text-gray-600 leading-relaxed">Complete furniture repair, new lighting installation, and creation of a dedicated reading corner with 200+ books.</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="text-center">
+                            <div class="bg-gray-200 rounded-lg h-32 flex items-center justify-center mb-2">
+                                <span class="text-gray-600 text-sm">Before: Empty walls, no books</span>
+                            </div>
+                            <p class="text-sm font-semibold text-gray-600">Before</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-primary/10 rounded-lg h-32 flex items-center justify-center mb-2">
+                                <span class="text-primary text-sm">After: Organized library and learning materials</span>
+                            </div>
+                            <p class="text-sm font-semibold text-primary">After</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3" style="font-family: var(--font-heading)">Roosevelt Middle School - Library</h3>
+                    <p class="text-gray-600 leading-relaxed">Installation of book shelving, organization system, and 1,500+ age-appropriate books for grades 6-8.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Metrics -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16" style="font-family: var(--font-heading)">Measuring Success</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3" style="font-family: var(--font-heading)">Reading Engagement</h3>
+                    <div class="text-3xl font-bold text-primary mb-3">73% increase</div>
+                    <p class="text-gray-600 text-sm leading-relaxed">Students report reading more frequently after classroom improvements and book distribution.</p>
+                </div>
+                <div class="text-center p-6 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">⏰</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3" style="font-family: var(--font-heading)">Time on Task</h3>
+                    <div class="text-3xl font-bold text-primary mb-3">45% improvement</div>
+                    <p class="text-gray-600 text-sm leading-relaxed">Teachers observe students staying focused longer in improved learning environments.</p>
+                </div>
+                <div class="text-center p-6 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">🎯</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3" style="font-family: var(--font-heading)">Attendance Rates</h3>
+                    <div class="text-3xl font-bold text-primary mb-3">12% increase</div>
+                    <p class="text-gray-600 text-sm leading-relaxed">Improved classroom conditions correlate with better student attendance.</p>
+                </div>
+                <div class="text-center p-6 bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">👥</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3" style="font-family: var(--font-heading)">Teacher Satisfaction</h3>
+                    <div class="text-3xl font-bold text-primary mb-3">95% positive</div>
+                    <p class="text-gray-600 text-sm leading-relaxed">Educators report increased job satisfaction and teaching effectiveness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Geographic Impact -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16" style="font-family: var(--font-heading)">Where We Work</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="bg-white rounded-xl p-8 shadow-lg">
+                    <div class="bg-primary/10 rounded-lg h-64 flex items-center justify-center mb-6">
+                        <span class="text-primary font-semibold">Interactive Map: Schools Served Across the Region</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-800 mb-8" style="font-family: var(--font-heading)">Regional Reach</h3>
+                    <div class="grid grid-cols-3 gap-6 mb-8">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-primary mb-2">3</div>
+                            <div class="text-gray-600">Counties served</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-primary mb-2">12</div>
+                            <div class="text-gray-600">Communities reached</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-primary mb-2">85%</div>
+                            <div class="text-gray-600">Title I schools</div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">We prioritize schools in high-need areas where our impact can make the greatest difference in students' educational experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Metrics -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-16" style="font-family: var(--font-heading)">Long-term Success</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-gradient-to-br from-primary to-secondary rounded-xl text-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4" style="font-family: var(--font-heading)">1-Year Follow-up</h3>
+                    <div class="text-5xl font-bold mb-4">95%</div>
+                    <p class="text-gray-100 leading-relaxed">Of classroom improvements remain in excellent condition after one year.</p>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-primary to-secondary rounded-xl text-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4" style="font-family: var(--font-heading)">Book Utilization</h3>
+                    <div class="text-5xl font-bold mb-4">87%</div>
+                    <p class="text-gray-100 leading-relaxed">Of distributed books are actively used in classrooms and reading programs.</p>
+                </div>
+                <div class="text-center p-8 bg-gradient-to-br from-primary to-secondary rounded-xl text-white shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4" style="font-family: var(--font-heading)">Teacher Retention</h3>
+                    <div class="text-5xl font-bold mb-4">92%</div>
+                    <p class="text-gray-100 leading-relaxed">Of trained teachers continue implementing learned strategies after two years.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-gradient-to-r from-primary to-secondary text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6" style="font-family: var(--font-heading)">Be part of our growing impact</h2>
+            <p class="text-xl mb-10 text-gray-100 leading-relaxed">Your support helps us reach more students and create lasting change in education.</p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                <a href="donate.html" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl">Make an Impact</a>
+                <a href="stories.html" class="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">Read Success Stories</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-1">
+                    <h3 class="text-2xl font-bold mb-4" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h3>
+                    <p class="text-gray-300 mb-4 leading-relaxed">Building brighter classrooms and futures for underserved communities.</p>
+                    <p class="text-gray-300">Email: <a href="mailto:info@chrisolivfoundation.org" class="text-primary hover:text-accent transition-colors">info@chrisolivfoundation.org</a></p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="donate.html" class="text-gray-300 hover:text-primary transition-colors">Donate</a></li>
+                        <li><a href="volunteer.html" class="text-gray-300 hover:text-primary transition-colors">Volunteer</a></li>
+                        <li><a href="partner.html" class="text-gray-300 hover:text-primary transition-colors">Partner</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Learn More</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-primary transition-colors">About</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-primary transition-colors">Programs</a></li>
+                        <li><a href="impact.html" class="text-gray-300 hover:text-primary transition-colors">Impact</a></li>
+                        <li><a href="stories.html" class="text-gray-300 hover:text-primary transition-colors">Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">&copy; Chris-Oliv Foundation, Inc. All rights reserved.</p>
+                <div class="flex flex-wrap gap-4 text-sm">
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Donor Privacy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Terms of Use</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Gift Acceptance Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Whistleblower Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
