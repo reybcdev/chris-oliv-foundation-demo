@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Chris-Oliv Foundation</title>
+    <meta name="description" content="Get in touch with the Chris-Oliv Foundation. Contact us for partnerships, volunteer opportunities, or general inquiries.">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #059669;
+            --color-primary-dark: #047857;
+            --color-secondary: #0d9488;
+            --color-accent: #14b8a6;
+            --font-heading: 'Crimson Text', serif;
+            --font-body: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <h2 class="text-2xl font-bold text-gray-800" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h2>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="index.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Home</a>
+                        <a href="about.html" class="text-gray-600 hover:text-primary transition-colors font-medium">About</a>
+                        <a href="programs.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Programs</a>
+                        <a href="impact.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Impact</a>
+                        <div class="relative group">
+                            <a href="#" class="text-gray-600 hover:text-primary transition-colors font-medium">Get Involved</a>
+                            <div class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                                <div class="py-1">
+                                    <a href="donate.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Donate</a>
+                                    <a href="volunteer.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Volunteer</a>
+                                    <a href="partner.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Partner</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="stories.html" class="text-gray-600 hover:text-primary transition-colors font-medium">Stories</a>
+                        <a href="contact.html" class="text-primary font-medium border-b-2 border-primary pb-1">Contact</a>
+                        <a href="donate.html" class="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-lg transition-colors font-medium">Donate</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-primary focus:outline-none focus:text-primary">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold mb-6" style="font-family: var(--font-heading)">Get in Touch</h1>
+            <p class="text-xl md:text-2xl text-gray-100 max-w-3xl mx-auto">We'd love to hear from you. Reach out with questions, ideas, or to learn more about our work.</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">📧</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Email Us</h3>
+                    <p class="text-gray-600 mb-4">For general inquiries and information</p>
+                    <a href="mailto:info@chrisolivfoundation.org" class="text-primary hover:text-accent font-medium transition-colors">info@chrisolivfoundation.org</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">📞</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Call Us</h3>
+                    <p class="text-gray-600 mb-4">Speak directly with our team</p>
+                    <a href="tel:+1-555-123-4567" class="text-primary hover:text-accent font-medium transition-colors">(555) 123-4567</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">📍</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Visit Us</h3>
+                    <p class="text-gray-600 mb-4">Our office location</p>
+                    <address class="text-gray-700 not-italic">
+                        123 Education Way<br>
+                        Community Center, Suite 200<br>
+                        Your City, ST 12345
+                    </address>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300">
+                    <div class="text-4xl mb-4">⏰</div>
+                    <h3 class="text-xl font-bold mb-3 text-gray-800" style="font-family: var(--font-heading)">Office Hours</h3>
+                    <p class="text-gray-600 mb-4">When we're available</p>
+                    <div class="text-gray-700 space-y-1">
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                        <p>Saturday: 10:00 AM - 2:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gray-50 rounded-2xl shadow-xl p-8 lg:p-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800" style="font-family: var(--font-heading)">Send Us a Message</h2>
+                <form class="space-y-8" id="contactForm">
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h3 class="text-xl font-semibold mb-6 text-gray-800" style="font-family: var(--font-heading)">Your Information</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address *</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                            </div>
+                        </div>
+                        <div class="mt-6">
+                            <label for="organization" class="block text-sm font-medium text-gray-700 mb-2">Organization (if applicable)</label>
+                            <input type="text" id="organization" name="organization" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h3 class="text-xl font-semibold mb-6 text-gray-800" style="font-family: var(--font-heading)">Your Inquiry</h3>
+                        <div class="mb-6">
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject *</label>
+                            <select id="subject" name="subject" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                                <option value="">Select a subject</option>
+                                <option value="general">General Information</option>
+                                <option value="volunteer">Volunteer Opportunities</option>
+                                <option value="partnership">Partnership Inquiry</option>
+                                <option value="donation">Donation Questions</option>
+                                <option value="school">School Program Interest</option>
+                                <option value="media">Media Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help you or what you'd like to know more about..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-vertical"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl p-6 shadow-sm">
+                        <h3 class="text-xl font-semibold mb-6 text-gray-800" style="font-family: var(--font-heading)">How did you hear about us?</h3>
+                        <div>
+                            <select id="source" name="source" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-all">
+                                <option value="">Select an option</option>
+                                <option value="search">Internet Search</option>
+                                <option value="social">Social Media</option>
+                                <option value="referral">Friend/Colleague Referral</option>
+                                <option value="school">Through a School</option>
+                                <option value="event">Community Event</option>
+                                <option value="news">News/Media</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center">
+                        <input type="checkbox" name="newsletter" id="newsletter" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                        <label for="newsletter" class="ml-3 text-sm text-gray-700">
+                            Subscribe to our newsletter for updates and impact stories
+                        </label>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                            Send Message
+                        </button>
+                        <p class="text-sm text-gray-600 mt-4">We'll respond to your message within 2 business days.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800" style="font-family: var(--font-heading)">Quick Links</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800" style="font-family: var(--font-heading)">For Schools</h3>
+                    <p class="text-gray-600 mb-6">Interested in partnering with us for classroom improvements?</p>
+                    <a href="programs.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Learn About Our Programs</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800" style="font-family: var(--font-heading)">For Volunteers</h3>
+                    <p class="text-gray-600 mb-6">Ready to make a hands-on difference in education?</p>
+                    <a href="volunteer.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Explore Volunteer Opportunities</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800" style="font-family: var(--font-heading)">For Businesses</h3>
+                    <p class="text-gray-600 mb-6">Looking to partner with us for corporate social responsibility?</p>
+                    <a href="partner.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Discover Partnership Options</a>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800" style="font-family: var(--font-heading)">For Donors</h3>
+                    <p class="text-gray-600 mb-6">Want to make an immediate impact on student learning?</p>
+                    <a href="donate.html" class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300">Make a Donation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800" style="font-family: var(--font-heading)">Find Us</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="bg-gray-100 rounded-xl p-8 text-center">
+                    <div class="bg-gradient-to-br from-primary to-secondary text-white rounded-lg p-12 min-h-[300px] flex items-center justify-center">
+                        <span class="text-lg font-medium">Interactive Map: 123 Education Way, Community Center, Suite 200</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 text-gray-800" style="font-family: var(--font-heading)">Visit Our Office</h3>
+                    <p class="text-gray-600 mb-8 text-lg">We're located in the heart of the community, easily accessible by public transportation and with parking available.</p>
+                    <div>
+                        <h4 class="text-xl font-semibold mb-4 text-gray-800" style="font-family: var(--font-heading)">Getting Here:</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-center text-gray-700">
+                                <span class="text-2xl mr-3">🚌</span>
+                                <span>Bus routes 12, 34, and 56 stop nearby</span>
+                            </li>
+                            <li class="flex items-center text-gray-700">
+                                <span class="text-2xl mr-3">🚗</span>
+                                <span>Free parking available in the Community Center lot</span>
+                            </li>
+                            <li class="flex items-center text-gray-700">
+                                <span class="text-2xl mr-3">♿</span>
+                                <span>Fully accessible building with elevator access</span>
+                            </li>
+                            <li class="flex items-center text-gray-700">
+                                <span class="text-2xl mr-3">🚶‍♀️</span>
+                                <span>5-minute walk from Main Street shopping district</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-1">
+                    <h3 class="text-2xl font-bold mb-4" style="font-family: var(--font-heading)">Chris-Oliv Foundation</h3>
+                    <p class="text-gray-300 mb-4 leading-relaxed">Building brighter classrooms and futures for underserved communities.</p>
+                    <p class="text-gray-300">Email: <a href="mailto:info@chrisolivfoundation.org" class="text-primary hover:text-accent transition-colors">info@chrisolivfoundation.org</a></p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Get Involved</h4>
+                    <ul class="space-y-2">
+                        <li><a href="donate.html" class="text-gray-300 hover:text-primary transition-colors">Donate</a></li>
+                        <li><a href="volunteer.html" class="text-gray-300 hover:text-primary transition-colors">Volunteer</a></li>
+                        <li><a href="partner.html" class="text-gray-300 hover:text-primary transition-colors">Partner</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Learn More</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="text-gray-300 hover:text-primary transition-colors">About</a></li>
+                        <li><a href="programs.html" class="text-gray-300 hover:text-primary transition-colors">Programs</a></li>
+                        <li><a href="impact.html" class="text-gray-300 hover:text-primary transition-colors">Impact</a></li>
+                        <li><a href="stories.html" class="text-gray-300 hover:text-primary transition-colors">Stories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="text-gray-300 hover:text-primary transition-colors" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">&copy; Chris-Oliv Foundation, Inc. All rights reserved.</p>
+                <div class="flex flex-wrap gap-4 text-sm">
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Donor Privacy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Terms of Use</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Gift Acceptance Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-primary transition-colors">Whistleblower Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
